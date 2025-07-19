@@ -16,5 +16,5 @@ MonoBehaviour:
   radiusX: 8
   radiusZ: 8
   orbitSpeed: 40
-  planetScale: 0.4
+  planetScale: 1
   rotationSpeed: 2

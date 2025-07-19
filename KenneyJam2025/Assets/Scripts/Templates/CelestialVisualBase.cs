@@ -30,6 +30,8 @@ public abstract class CelestialVisualBase : MonoBehaviour
         Vector3 dir = mainCamera.transform.position - transform.position;
         dir.y = 0;
 
+        
+        // need to find a better angle
         if (dir != Vector3.zero)
         {
             transform.rotation = Quaternion.LookRotation(dir);
